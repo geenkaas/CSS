@@ -1,0 +1,12 @@
+/* iPad Landscape + regular sites (960px) */
+div {
+	}
+
+@media only screen and (max-width: 1024px) { /* iPad portrait */
+	}
+
+@media only screen and (max-width: 768px) { /* iPhone landscape */
+	}
+
+@media only screen and (max-width: 480px) { /* iPhone portrait */
+	}

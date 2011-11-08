@@ -1,0 +1,40 @@
+/* @group Sticky Footer */
+/* http://www.cssstickyfooter.com */
+* {
+	margin: 0;
+	padding: 0;
+	}
+html,
+body {
+	height: 100%;
+	}
+body:before {
+	content: "";
+	height: 100%;
+	float: left;
+	margin-top: -32767px;
+	width: 0;
+	}
+#sitewrapper {
+	min-height: 100%;
+	width: 100%;
+	}
+#bodywrapper {
+	clear: both;
+	overflow-x: hidden;
+	overflow-y: auto;
+	padding-bottom: 70px;
+	}
+footer {
+	clear: both;
+	height: 70px;
+	margin-top: -70px;
+	position: relative;
+	}
+header,
+#bodywrapper,
+#footerwrapper {
+	margin: 0 auto;
+	width: 960px;
+	}
+/* @end */

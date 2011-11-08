@@ -1,0 +1,10 @@
+/* @group Bulletproof @font-face */
+@font-face {
+	font-family: 'custom';
+	src:url('fonts/webfont.eot');
+	src:url('fonts/webfont.eot?iefix') format('eot'),
+		url('fonts/webfont.woff') format('woff'),
+		url('fonts/webfont.ttf') format('truetype'),
+		url('fonts/webfont.svg#svgFontName') format('svg');
+	}
+/* @end */
