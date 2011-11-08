@@ -1,0 +1,13 @@
+.animated {
+    -webkit-animation-duration: 0.2s; 
+    -webkit-animation-iteration-count: infinite;
+    -webkit-transition-timing-function: ease-out;
+    -webkit-animation-name: twiddle;
+	}
+
+/* @group Animations */
+	@-webkit-keyframes twiddle {
+	  0%, 100% {-webkit-transform: rotate(-2deg);}
+	  50% {-webkit-transform: rotate(1deg);}
+	}
+/* @end */

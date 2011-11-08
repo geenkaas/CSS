@@ -1,0 +1,32 @@
+#lightbox .close {
+	background: #333;
+	border: 5px solid #aaa;
+	color: #aaa;
+	cursor: pointer;
+	font: bold 30px/42px custom;
+	position: absolute;
+	right: -20px;
+	top:  -20px;
+	width: 40px;
+	height: 40px;
+	text-align: center;
+	text-transform: uppercase;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	user-select: none;
+	-moz-border-radius: 40px;
+	border-radius: 40px;
+	box-shadow: inset 0px 5px 5px #000;
+	behavior: url(/wp-content/themes/bandbreed/scripts/PIE.htc);
+	}
+#lightbox .close:hover {
+	color: #fff;
+	top:  -21px;
+	border: 5px solid #fff;
+	}
+#lightbox .close:active {
+	background: #ccc;
+	color: #333;
+	top:  -18px;
+	border: 5px solid #333;
+	}
