@@ -1,4 +1,11 @@
-#lightbox .close {
+
+.lightbox {
+	position: relative;
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	}
+.lightbox .close {
 	background: #333;
 	border: 5px solid #aaa;
 	color: #aaa;
@@ -19,12 +26,12 @@
 	box-shadow: inset 0px 5px 5px #000;
 	behavior: url(/wp-content/themes/bandbreed/scripts/PIE.htc);
 	}
-#lightbox .close:hover {
+.lightbox .close:hover {
 	color: #fff;
 	top:  -21px;
 	border: 5px solid #fff;
 	}
-#lightbox .close:active {
+.lightbox .close:active {
 	background: #ccc;
 	color: #333;
 	top:  -18px;
